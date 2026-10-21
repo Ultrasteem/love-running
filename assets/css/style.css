@@ -112,7 +112,11 @@ footer{
 
 @media screen and (min-width: 768px){
     
-    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     nav{
         position: relative;
         box-shadow: none;
@@ -124,7 +128,9 @@ footer{
         display: none;
     }
     #menu{
+        padding-top:10px;
         display: flex;
+        align-items: center;
         
     }
     #menu > li{
