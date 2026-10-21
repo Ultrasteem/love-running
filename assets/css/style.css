@@ -1,4 +1,11 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+
+
+
+
 /*reset css*/
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +16,7 @@
 body{min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #3a3a3a;
 }
 
@@ -30,4 +37,9 @@ main{
 footer{
     background-color: #7458c2;
 
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
 }
